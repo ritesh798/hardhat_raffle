@@ -1,0 +1,36 @@
+Arguments: 
+  /home/ritesh/.nvm/versions/node/v16.14.2/bin/node /home/ritesh/.node/corepack/yarn/1.22.15/bin/yarn.js add --dev hardahat
+
+PATH: 
+  /home/ritesh/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/bin/remote-cli:/home/ritesh/.nvm/versions/node/v16.14.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python310/Scripts/:/mnt/c/Python310/:/mnt/c/Python39/Scripts/:/mnt/c/Python39/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/OpenSSL-Win64/bin:/mnt/c/Program Files/heroku/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/ritesh/AppData/Local/Programs/Python/Python37/Scripts/:/mnt/c/Users/ritesh/AppData/Local/Programs/Python/Python37/:/mnt/c/Users/ritesh/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/Java/jdk1.8.0_251/bin:/mnt/c/Users/ritesh/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/ritesh/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ritesh/demos/web3_py_simple_storage/.env:/mnt/c/Users/ritesh/.local/bin:/mnt/c/Users/ritesh/AppData/Roaming/Python/Python39/Scripts:/mnt/c/Users/ritesh/AppData/Roaming/npm:/snap/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.14.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/hardahat: Not found
+      at Request.params.callback [as _callback] (/home/ritesh/.node/corepack/yarn/1.22.15/lib/cli.js:66140:18)
+      at Request.self.callback (/home/ritesh/.node/corepack/yarn/1.22.15/lib/cli.js:140885:22)
+      at Request.emit (node:events:526:28)
+      at Request.<anonymous> (/home/ritesh/.node/corepack/yarn/1.22.15/lib/cli.js:141857:10)
+      at Request.emit (node:events:526:28)
+      at IncomingMessage.<anonymous> (/home/ritesh/.node/corepack/yarn/1.22.15/lib/cli.js:141779:12)
+      at Object.onceWrapper (node:events:645:28)
+      at IncomingMessage.emit (node:events:538:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
