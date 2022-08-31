@@ -128,6 +128,8 @@ const { developmentChains, networkConfig } = require("../../helper-hardhat-confi
                   const additionalEntrants = 3
                   const startingAccountIndex = 1
                   const accounts = await ethers.getSigners()
+                  const fee = await raffle.getEntranceFee()
+                  console.log(`YOued fee is ${fee}`)
                   for (
                       let i = startingAccountIndex;
                       i < startingAccountIndex + additionalEntrants;
